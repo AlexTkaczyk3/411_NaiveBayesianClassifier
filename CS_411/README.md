@@ -1,8 +1,5 @@
 # CS_411
 # Project 2
-
-# - Computing AUC 
-Completed by Agnes Folga. Program takes in 2 files, reads the probabilities of the positive class, sorts by ascending order, and correlates it with its positive, or negative classification. TPR and FPR are calculated, then the AUC is calculated by the change in x and y of the graph (not using traditional calculus as by guidelines). AUC value is printed to a txt file
 # - Implementing a Naive-Bayesian Classifier
 Completed by Alex Tkaczyk. Program input being 2 files. 
 First file being a training dataset, which is parsed (using split_by_class) and the data is stored in a complex dictionary(referred to as ParsedDict here). ParsedDict is then iterated through to compute the conditional probabilities(using get_likelihood). All conditional likelihoods are then written out to a file. Condiitonal likelihoods are also stored in a different dictionary (referred to as ProbDict here), as preperation for testing.
